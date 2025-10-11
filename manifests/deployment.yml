@@ -18,5 +18,4 @@ spec:
         - name: playground
           image: wil42/playground:v1
           ports:
-          - name: playground-web
-            containerPort: 8888
+          - containerPort: 8888
