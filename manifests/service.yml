@@ -6,7 +6,7 @@ spec:
   selector:
     app: playground
   ports:
-    - name: playground-web
+    - name: app-svc-port
       protocol: TCP
       port: 8888
-      targetPort: 8888
+      targetPort: playground-web
