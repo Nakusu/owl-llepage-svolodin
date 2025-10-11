@@ -1,8 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: playground
-  namespace: dev
+  name: wil-playground
   labels:
     app: playground
 spec:
