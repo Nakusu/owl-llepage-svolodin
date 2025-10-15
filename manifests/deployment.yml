@@ -6,6 +6,7 @@ metadata:
   labels:
     name: playground
 spec:
+  schedule: '* * * * *'
   replicas: 1
   selector:
     matchLabels:
